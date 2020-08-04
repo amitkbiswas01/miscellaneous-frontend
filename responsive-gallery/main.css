@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h1 {
+  width: 100%;
+  margin: 1rem auto;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3em;
+  color: crimson;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 1rem 2rem;
+  transition: all 0.5s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (min-width: 42rem) {
+  body {
+    margin: 2rem;
+  }
+  img {
+    max-width: 30rem;
+  }
+}

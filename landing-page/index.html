@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body>
+    <div id="page" class="banner">
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <div class="toggle-menu" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hello world!<br>I am <span>Amit Biswas</span></h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum quae autem sapiente ex accusamus
+                corrupti? Repudiandae non necessitatibus facilis laudantium, cumque earum similique facere quam qui
+                aliquam itaque rem?</p>
+            <a href="#">Know more</a>
+        </div>
+    </div>
+    <div id="nav" class="navigation">
+        <ul class="links">
+            <li><a href="#">Porfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <ul class="icons">
+            <li><a href="#"><img src="assets/github.svg" alt="github-icon" height="50px" width="50px"></a></li>
+            <li><a href="#"><img src="assets/facebook.svg" alt="facebook-icon" height="50px" width="50px"></a></li>
+            <li><a href="#"><img src="assets/email.svg" alt="email-icon" height="50px" width="50px"></a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            const page = document.querySelector("#page");
+            const nav = document.querySelector("#nav");
+
+            page.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
