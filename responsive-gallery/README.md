@@ -4,4 +4,4 @@
 
 ## Preview
 
-[ss preview](screenshots/ss-1.png)
+![ss preview](screenshots/ss-1.png)
